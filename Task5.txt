@@ -1,0 +1,82 @@
+var jsonObject = {
+        name: 'Sakthivel',
+        Age: '33'
+    };
+
+for (var prop in jsonObject) {
+  console.log("Key:" + prop);
+  console.log("Value:" + jsonObject[prop]);
+}
+---------------------------------------------------------------
+
+Literals in Loops
+-------------------
+
+const iterable = [10, 20, 30];
+
+for (const value of iterable) {
+  console.log(value);
+}
+--------------------------------------------------------------
+let sum = 0;
+const numbers = [65, 44, 12, 4];
+numbers.forEach(myFunction);
+
+function myFunction(item) {
+  sum += item;
+}
+-------------------------------------------------------------
+
+JSON Resume DATA
+{
+    "settings": {
+        "icons" : true
+    },
+    "firstname": "Mudra",
+    "familyname": "Suthar",
+    "bio_data": {
+        "email": "sakthi.jkpm@gmail.com",
+        "phone": "8637444200",
+    "summary": {
+        "points":[
+        "Hard worker, quick learner, and Responsible"
+        ]
+    },
+        "skills": {
+            "details": [
+                {
+                    "type": "Programming Languages",
+                    "items": [
+                        "HTML",
+                        "CSS",
+                        "C++",
+                        "Javascript",
+			"java"
+                    ]
+                },
+                
+                {
+                    "type": "Databases",
+                    "items": [
+                        "MySQL",
+                        "PostgreSQL",
+                    ]
+                }
+            ]
+        },
+        "education": {
+        "show_gpa": true,
+            "schools": [
+                {
+                    "degree": "M.C.A",
+                    "major": "Computer Applications",
+                    "institution": "S.V.S Engineering College",
+                    "graduation_year": 2014,
+                    "gpa": "3.21/4"
+                }
+            ]
+        },
+        
+    
+    }
+}
